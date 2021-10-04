@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Deedsio",
+  "name": "Deeds cord",
   "version": "65536",
   "description": "Adds dark mode and rounded corners to DEEDS.",
   "action": {
