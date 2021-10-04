@@ -12,10 +12,18 @@
 }
 /* Adds rounded corners to pictures */
 img {
-  border-radius: 8px;
+  border-radius: 8px !important;
 }
 
-/* Inverts everything (looks terrible at the moment) */
+/* Inverts everything (looks terrible at the moment)
 body {
-  filter: invert(100%);
+  filter: invert(100%) !important;
+  filter: grayscale(100%) !important;
+}
+*/
+td {
+  border-radius: 100px !important;
+}
+.tab-bar-section {
+  background-image: linear-gradient(to bottom right, #57F287, #5865F2) !important;
 }
