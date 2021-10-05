@@ -18,11 +18,6 @@ Thanks, Dumbledore#5175 :)
   }
 }
 
-/* Timetable Preview on Menu Screen*/
-.timetable-day-active{
-  background-color: black !important;
-}
-
 /* Adds rounded corners to pictures everywhere */
 img {
   border-radius: 8px !important;
@@ -34,7 +29,6 @@ section {
 }
 
 /* ---------------------- CLASSES PAGE ---------------------- */
-
 /* Rounds the more menu button in the classes page */
 .icon-more{
   border-radius: 100px !important;
@@ -46,12 +40,17 @@ section {
 }
 
 /* ---------------------- HOME PAGE ---------------------- */
+/* Adds dark mode to timetable preview */
+.timetable-day-active{
+  background-color: black !important;
+}
 
-/*
+/* Removes DEEDS mobile app ad */
 #component20175 {
   display: none !important;
 }
 
+/* ---------------------- BETA ---------------------- */
 /*
 IMPORTANT:
 Everything below is currently in beta, you have to options:
