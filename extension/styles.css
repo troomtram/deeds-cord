@@ -40,11 +40,6 @@ section {
 }
 
 /* ---------------------- HOME PAGE ---------------------- */
-/* Adds dark mode to timetable preview */
-.timetable-day-active{
-  background-color: black !important;
-}
-
 /* Removes DEEDS mobile app ad */
 #component20175 {
   display: none !important;
@@ -57,6 +52,7 @@ Everything below is currently in beta, you have to options:
 a) Delete everything below before loading your extension if you don't want the user interface to look bad.
 b) Don't delete everything below if you would like to test out the latest beta features of this extension.
 */
+/* THIS SECTION GETS COMMENTED OUT DURING STABLE RELEASES */
 
 /*
 .list-item{
