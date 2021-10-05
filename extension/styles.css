@@ -45,6 +45,15 @@ section {
   display: none !important;
 }
 
+/* Adds rounded corners to the mini timetable */
+#component3419{
+  border-radius: 8px 8px 8px 8px !important;
+  background-color: #FFFFFF !important;
+}
+
+.subheader{
+  padding-left: 10px !important;
+}
 /* ---------------------- BETA ---------------------- */
 /*
 IMPORTANT:
