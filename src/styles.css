@@ -5,7 +5,6 @@ For developers:
 When you are submitting a PR or committing a change please add comments to your code so other developers can understand.
 Thanks, Dumbledore#5175 :)
 */
-
 /* ---------------------- GLOBAL (overrides everywhere) ---------------------- */
 /* Makes the images face out on hover */
 @media (prefers-color-scheme: dark) {
@@ -17,6 +16,11 @@ Thanks, Dumbledore#5175 :)
     opacity: .75 !important;
 
   }
+}
+
+/* Timetable Preview on Menu Screen*/
+.timetable-day-active{
+  background-color: black !important;
 }
 
 /* Adds rounded corners to pictures everywhere */
@@ -41,6 +45,13 @@ section {
   border-radius: 8px 8px 0px 0px !important;
 }
 
+/* ---------------------- HOME PAGE ---------------------- */
+
+/*
+#component20175 {
+  display: none !important;
+}
+
 /*
 IMPORTANT:
 Everything below is currently in beta, you have to options:
@@ -59,6 +70,3 @@ b) Don't delete everything below if you would like to test out the latest beta f
   border-radius: 8px !important;
 }
 */
-#component20175 {
-  display: none !important;
-}
