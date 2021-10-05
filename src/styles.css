@@ -1,4 +1,6 @@
-/* Please be patient as I have just recoded all this... */
+/* VERSION: 1.3 */
+/* CURRENTLY IN BETA */
+
 
 /* Hover dark picture effect */
 @media (prefers-color-scheme: dark) {
@@ -10,20 +12,38 @@
     opacity: 1 !important;
   }
 }
+
 /* Adds rounded corners to pictures */
 img {
   border-radius: 8px !important;
 }
 
-/* Inverts everything (looks terrible at the moment)
-body {
-  filter: invert(100%) !important;
-  filter: grayscale(100%) !important;
-}
-*/
-td {
+/* Rounds the more menu button in the classes page */
+.icon-more{
   border-radius: 100px !important;
 }
-.tab-bar-section {
-  background-image: linear-gradient(to bottom right, #57F287, #5865F2) !important;
+
+/* Rounds the class image in the classes page in the top left and right corners*/
+.card-class-image{
+  border-radius: 8px !important;
+}
+
+/*
+IMPORTANT:
+Everything below is currently in beta, you have to options:
+a) Delete everything below before loading your extension if you don't want the user interface to look bad.
+b) Don't delete everything below if you would like to test out the latest beta features of this extension.
+*/
+.list-item{
+  border-radius: 8px !important;
+}
+.small-12{
+  border-radius: 8px !important;
+}
+.v-card {
+  border-radius: 8px !important;
+}
+
+.card-content {
+  border-radius: 8px !important;
 }
