@@ -51,6 +51,7 @@ section {
   background-color: #FFFFFF !important;
 }
 
+/* Adds 10 pixels of padding to the subheader above the mini timetable */
 .subheader{
   padding-left: 10px !important;
 }
@@ -62,15 +63,3 @@ a) Delete everything below before loading your extension if you don't want the u
 b) Don't delete everything below if you would like to test out the latest beta features of this extension.
 */
 /* THIS SECTION GETS COMMENTED OUT DURING STABLE RELEASES */
-
-/*
-.list-item{
-  border-radius: 8px !important;
-}
-.small-12{
-  border-radius: 8px !important;
-}
-.v-card {
-  border-radius: 8px !important;
-}
-*/
