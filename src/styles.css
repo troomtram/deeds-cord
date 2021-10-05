@@ -15,11 +15,17 @@ Thanks, Dumbledore#5175 :)
   }
   img:hover {
     opacity: 1 !important;
+
   }
 }
 
 /* Adds rounded corners to pictures everywhere */
 img {
+  border-radius: 8px !important;
+}
+
+/* Rounds all the section html elements (basically all the menus) */
+section {
   border-radius: 8px !important;
 }
 
@@ -30,7 +36,10 @@ img {
   border-radius: 100px !important;
 }
 
-
+/* Rounds the class image in the classes page in the top left and right corners */
+.card-class-image{
+  border-radius: 8px 8px 0px 0px !important;
+}
 
 /*
 IMPORTANT:
@@ -49,15 +58,4 @@ b) Don't delete everything below if you would like to test out the latest beta f
 .v-card {
   border-radius: 8px !important;
 }
-
-Rounds the class image in the classes page in the top left and right corners
-.card-class-image{
-  border-radius: 8px !important;
-}
 */
-div.small-12.medium-6.large-4.xlarge-3.island {
-  border-radius: 8px !important;
-}
-div.card-content.classes.actions-small-1 {
-  border-radius: 8px !important;
-}
