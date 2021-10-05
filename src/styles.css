@@ -6,7 +6,7 @@ When you are submitting a PR or committing a change please add comments to your 
 Thanks, Dumbledore#5175 :)
 */
 
-/* ---------------------- GLOBAL (overides everywhere) ---------------------- */
+/* ---------------------- GLOBAL (overrides everywhere) ---------------------- */
 /* Hover dark picture effect */
 @media (prefers-color-scheme: dark) {
   img {
