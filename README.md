@@ -6,3 +6,5 @@ A chrome extension to improve the look and feel of schoolbox (DEEDS).
 1) Clone this repo.
 2) Navigate to __chrome://extensions__ and enable developer mode.
 3) Press load unpacked and select the __deeds-cord/extension__ folder
+
+Refer to the (wiki)[https://github.com/cgsdiscord/deeds-cord/wiki] for more information.
