@@ -1,7 +1,12 @@
 /* VERSION: 1.3 */
 /* CURRENTLY IN BETA */
+/*
+For developers:
+When you are submitting a PR or committing a change please add comments to your code so other developers can understand.
+Thanks, Dumbledore#5175 :)
+*/
 
-
+/* ---------------------- GLOBAL (overides everywhere) ---------------------- */
 /* Hover dark picture effect */
 @media (prefers-color-scheme: dark) {
   img {
@@ -13,17 +18,19 @@
   }
 }
 
-/* Adds rounded corners to pictures */
+/* Adds rounded corners to pictures everywhere */
 img {
   border-radius: 8px !important;
 }
+
+/* ---------------------- CLASSES PAGE ---------------------- */
 
 /* Rounds the more menu button in the classes page */
 .icon-more{
   border-radius: 100px !important;
 }
 
-/* Rounds the class image in the classes page in the top left and right corners*/
+/* Rounds the class image in the classes page in the top left and right corners */
 .card-class-image{
   border-radius: 8px !important;
 }
