@@ -7,14 +7,14 @@ Thanks, Dumbledore#5175 :)
 */
 
 /* ---------------------- GLOBAL (overrides everywhere) ---------------------- */
-/* Hover dark picture effect */
+/* Makes the images face out on hover */
 @media (prefers-color-scheme: dark) {
   img {
-    opacity: .75 !important;
+    opacity: 100% !important;
     transition: opacity .5s ease-in-out !important;
   }
   img:hover {
-    opacity: 1 !important;
+    opacity: .75 !important;
 
   }
 }
@@ -59,3 +59,6 @@ b) Don't delete everything below if you would like to test out the latest beta f
   border-radius: 8px !important;
 }
 */
+#component20175 {
+  display: none !important;
+}
