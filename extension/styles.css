@@ -38,11 +38,11 @@ section {
   border-radius: 8px !important;
 }
 
-/* Changes left and right slideout menus to black */
+/* Changes left and right slideout menus to #121212 */
 aside {
-  background-color: black !important;
-  background: Black !important;
-  color: black !important;
+  background-color: #121212 !important;
+  background: #121212 !important;
+  color: #121212 !important;
 }
 
 /* Changes all links to white */
@@ -90,7 +90,7 @@ h3 {
 
 /* Replaces deeds icon with dark mode version */
 div.logo-wrapper{
-  background-color: black !important;
+  background-color: #121212 !important;
 }
 .logo {
   padding-left: 10% !important;
