@@ -38,10 +38,27 @@ section {
   border-radius: 8px !important;
 }
 
+/* Changes left and right slideout menus to black */
 aside {
   background-color: black !important;
   background: Black !important;
   color: black !important;
+}
+
+/* Changes all links to white */
+a {
+  color: white !important;
+}
+
+/* Changes all headings to white */
+h1 {
+  color: white !important;
+}
+h2 {
+  color: white !important;
+}
+h3 {
+  color: white !important;
 }
 /* ---------------------- CLASSES PAGE ---------------------- */
 /* Makes the more menu button a circle in the classes page */
@@ -71,6 +88,14 @@ aside {
   padding-left: 10px !important;
 }
 
+/* Replaces deeds icon with dark mode version */
+div.logo-wrapper{
+  background-color: black !important;
+}
+.logo {
+  padding-left: 10% !important;
+  content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/deeds-logo.png?raw=true);
+}
 /* ---------------------- NEWS PAGE ---------------------- */
 /* Adds rounded corners to the news floating tile */
 dl.tabs{
