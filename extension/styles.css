@@ -18,8 +18,18 @@ Thanks, Dumbledore#5175 :)
   }
 }
 
+/* Makes star button on hover a circle */
+.icon-favourite-hollow{
+  border-radius: 100px !important;
+}
+
 /* Adds rounded corners to pictures everywhere */
 img {
+  border-radius: 8px !important;
+}
+
+/* Adds rounded corners to all the list items */
+li{
   border-radius: 8px !important;
 }
 
@@ -60,11 +70,6 @@ section {
 /* Adds rounded corners to the news floating tile */
 dl.tabs{
   border-radius: 8px 8px 8px 8px !important;
-}
-
-/* Makes star button on hover a circle in the news */
-.icon-favourite-hollow{
-  border-radius: 100px !important;
 }
 /* ---------------------- BETA ---------------------- */
 /*
