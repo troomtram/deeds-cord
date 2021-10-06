@@ -55,6 +55,16 @@ section {
 .subheader{
   padding-left: 10px !important;
 }
+
+/* ---------------------- NEWS PAGE ---------------------- */
+dl.tabs{
+  border-radius: 8px 8px 8px 8px !important;
+}
+
+/* Add rounded corners to star button in the news */
+.icon-favourite-hollow{
+  border-radius: 0px 0px 0px 8px !important;
+}
 /* ---------------------- BETA ---------------------- */
 /*
 IMPORTANT:
