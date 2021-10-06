@@ -5,6 +5,15 @@ For developers:
 When you are submitting a PR or committing a change please add comments to your code so other developers can understand.
 Thanks, Dumbledore#5175 :)
 */
+
+/*
+**Colours as of now: **
+Background: #121212
+Foreground: Lighter shade of grey to be decided
+Primary: #7C90B3 (https://discord.com/channels/826023027548225547/880268006788329522/895426527511064636)
+Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788329522/895426569890316308)
+*/
+
 /* ---------------------- GLOBAL (overrides everywhere) ---------------------- */
 /* Makes the images face out on hover */
 @media (prefers-color-scheme: dark) {
