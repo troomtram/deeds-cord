@@ -57,6 +57,7 @@ section {
 }
 
 /* ---------------------- NEWS PAGE ---------------------- */
+/* Adds rounded corners to the news floating tile */
 dl.tabs{
   border-radius: 8px 8px 8px 8px !important;
 }
