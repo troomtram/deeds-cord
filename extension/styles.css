@@ -65,6 +65,9 @@ dl.tabs{
 /* Makes star button on hover a circle in the news */
 .icon-favourite-hollow{
   border-radius: 100px !important;
+  /* Adds 5 pixels of padding */
+  padding-right: 5px !important;
+  padding-top: 5px !important;
 }
 /* ---------------------- BETA ---------------------- */
 /*
