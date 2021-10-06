@@ -38,6 +38,11 @@ section {
   border-radius: 8px !important;
 }
 
+aside {
+  background-color: black !important;
+  background: Black !important;
+  color: black !important;
+}
 /* ---------------------- CLASSES PAGE ---------------------- */
 /* Makes the more menu button a circle in the classes page */
 .icon-more{
