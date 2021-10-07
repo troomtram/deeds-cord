@@ -86,6 +86,21 @@ span.title{
 }
 
 /* ---------------------- HOME PAGE ---------------------- */
+/* Adds dark mode to calendar quick menu on homepage */
+div.fc-list-day-cushion.fc-cell-shaded{ /* Calandar current page box */
+  background-color: #1E1E1E !important;
+  color: white !important;
+}
+
+/* Adds dark mode to calendar and puts it in it's own box! */
+div#calendar{
+  background-color: #30567A !important;
+  border-radius: 8px !important;
+}
+div#component3421{
+  background-color: #30567A !important;
+  border-radius: 8px !important;
+}
 /* Removes DEEDS mobile app ad */
 #component20175 {
   display: none !important;
@@ -111,7 +126,8 @@ table.timetable{
   background-color: #1E1E1E !important;
 }
 div.timetable-subject{
-  color: black !important;
+  color: white !important;
+  background: #30567A !important;
 }
 /* Adds 10 pixels of padding to the subheader above the mini timetable */
 .subheader{
