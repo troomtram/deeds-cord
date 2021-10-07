@@ -121,12 +121,19 @@ div.logo-wrapper{
   padding-left: 10% !important;
   content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/deeds-logo.png?raw=true);
 }
+
 /* ---------------------- NEWS PAGE ---------------------- */
 /* Adds rounded corners to the news floating tile */
 dl.tabs{
   border-radius: 8px 8px 0px 0px !important;
   background-color: #1E1E1E !important;
 }
+
+/* Adds dark mode to news menus */
+li.actions-small-1{
+  background-color: #1E1E1E !important;
+}
+
 /* ---------------------- BETA ---------------------- */
 /*
 IMPORTANT:
