@@ -9,7 +9,8 @@ Thanks, Dumbledore#5175 :)
 /*
 **Colours as of now: **
 Background: #121212
-Foreground: Lighter shade of grey to be decided
+Foreground: #1E1E1E
+Text: black
 Primary: #7C90B3 (https://discord.com/channels/826023027548225547/880268006788329522/895426527511064636)
 Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788329522/895426569890316308)
 */
@@ -69,6 +70,7 @@ h2 {
 h3 {
   color: white !important;
 }
+
 /* ---------------------- CLASSES PAGE ---------------------- */
 /* Makes the more menu button a circle in the classes page */
 .icon-more{
@@ -89,7 +91,11 @@ h3 {
 /* Adds rounded corners to the mini timetable */
 #component3419{
   border-radius: 8px 8px 8px 8px !important;
-  background-color: #FFFFFF !important;
+}
+
+/* Adds dark mode to the mini timetable */
+#component3419{
+  background-color: #1E1E1E !important;
 }
 
 /* Adds 10 pixels of padding to the subheader above the mini timetable */
@@ -108,7 +114,8 @@ div.logo-wrapper{
 /* ---------------------- NEWS PAGE ---------------------- */
 /* Adds rounded corners to the news floating tile */
 dl.tabs{
-  border-radius: 8px 8px 8px 8px !important;
+  border-radius: 8px 8px 0px 0px !important;
+  background-color: #1E1E1E !important;
 }
 /* ---------------------- BETA ---------------------- */
 /*
