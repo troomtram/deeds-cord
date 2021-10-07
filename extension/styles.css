@@ -70,6 +70,9 @@ h3 {
   color: white !important;
 }
 
+p {
+  color: white !important;
+}
 /* ---------------------- CLASSES PAGE ---------------------- */
 /* Makes the more menu button a circle in the classes page */
 .icon-more{
@@ -80,11 +83,11 @@ h3 {
 .card-class-image{
   border-radius: 8px 8px 0px 0px !important;
 }
-/* Rounds the bottom of the tiles on the classes pages */
-span.title{
+/* Rounds the bottom of the tiles on the classes pages (and the home page and other places I don't know about...)*/
+div.card-content.classes.actions-small-1{
   border-radius: 0px 0px 8px 8px !important;
+  background-color: #30567A !important;
 }
-
 /* ---------------------- HOME PAGE ---------------------- */
 /* Adds dark mode to calendar quick menu on homepage */
 div.fc-list-day-cushion.fc-cell-shaded{ /* Calandar current page box */
