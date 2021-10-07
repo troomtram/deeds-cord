@@ -83,6 +83,7 @@ p {
 .card-class-image{
   border-radius: 8px 8px 0px 0px !important;
 }
+
 /* Rounds the bottom of the tiles on the classes pages (and the home page and other places I don't know about...)*/
 div.card-content.classes.actions-small-1{
   border-radius: 0px 0px 8px 8px !important;
@@ -107,6 +108,7 @@ div#component3421{
 div.fc-list-day-cushion.fc-cell-shaded{
   background-color: #30567A !important;
 }
+
 /* Removes DEEDS mobile app ad */
 #component20175 {
   display: none !important;
@@ -135,6 +137,7 @@ div.timetable-subject{
   color: white !important;
   background: #30567A !important;
 }
+
 /* Adds 10 pixels of padding to the subheader above the mini timetable */
 .subheader{
   padding-left: 10px !important;
