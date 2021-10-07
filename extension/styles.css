@@ -70,10 +70,6 @@ h3 {
   color: white !important;
 }
 
-/* Removes "Timetable" from "Music Timetable" */
-a.icon-music span{
-  content: "Music" !important;
-}
 /* ---------------------- CLASSES PAGE ---------------------- */
 /* Makes the more menu button a circle in the classes page */
 .icon-more{
