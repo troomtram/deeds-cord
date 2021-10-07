@@ -81,6 +81,10 @@ h3 {
 .card-class-image{
   border-radius: 8px 8px 0px 0px !important;
 }
+/* Rounds the bottom of the tiles on the classes pages */
+span.title{
+  border-radius: 0px 0px 8px 8px !important;
+}
 
 /* ---------------------- HOME PAGE ---------------------- */
 /* Removes DEEDS mobile app ad */
@@ -97,7 +101,13 @@ h3 {
 #component3419{
   background-color: #1E1E1E !important;
 }
-
+thead{
+  background-color: #1E1E1E !important;
+  color: white !important;
+}
+table.timetable{
+  background-color: #1E1E1E !important;
+}
 /* Adds 10 pixels of padding to the subheader above the mini timetable */
 .subheader{
   padding-left: 10px !important;
