@@ -52,7 +52,6 @@ section {
 aside {
   background-color: #121212 !important;
   background: #121212 !important;
-  color: #121212 !important;
 }
 
 /* Changes all links to white */
@@ -71,6 +70,10 @@ h3 {
   color: white !important;
 }
 
+/* Removes "Timetable" from "Music Timetable" */
+a.icon-music span{
+  content: "Music" !important;
+}
 /* ---------------------- CLASSES PAGE ---------------------- */
 /* Makes the more menu button a circle in the classes page */
 .icon-more{
@@ -122,16 +125,22 @@ div.logo-wrapper{
   content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/deeds-logo.png?raw=true);
 }
 
+/* Adds dark mode to the background of homepage */
+/* Makes the ui look terrible if you remove this, if you want to disable dark mode remember to delete all other dark mode related things */
+section.main{
+  background-color: #1E1E1E !important;
+}
 /* ---------------------- NEWS PAGE ---------------------- */
 /* Adds rounded corners to the news floating tile */
 dl.tabs{
-  border-radius: 8px 8px 0px 0px !important;
+  border-radius: 8px !important;
   background-color: #1E1E1E !important;
 }
 
 /* Adds dark mode to news menus */
 li.actions-small-1{
   background-color: #1E1E1E !important;
+  color: white !important;
 }
 
 /* ---------------------- BETA ---------------------- */
