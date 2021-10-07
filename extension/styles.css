@@ -101,6 +101,9 @@ div#component3421{
   background-color: #30567A !important;
   border-radius: 8px !important;
 }
+div.fc-list-day-cushion.fc-cell-shaded{
+  background-color: #30567A !important;
+}
 /* Removes DEEDS mobile app ad */
 #component20175 {
   display: none !important;
