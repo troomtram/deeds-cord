@@ -45,7 +45,7 @@ li{
 
 /* Rounds all the section html elements (basically all the menus) */
 section {
-  border-radius: 8px !important;
+  background-color: #1E1E1E !important;
 }
 
 /* Changes left and right slideout menus to #121212 */
@@ -104,8 +104,14 @@ thead{
   background-color: #1E1E1E !important;
   color: white !important;
 }
+th{
+  color: white !important;
+}
 table.timetable{
   background-color: #1E1E1E !important;
+}
+div.timetable-subject{
+  color: black !important;
 }
 /* Adds 10 pixels of padding to the subheader above the mini timetable */
 .subheader{
@@ -123,6 +129,7 @@ div.logo-wrapper{
 
 /* Adds dark mode to the background of homepage */
 /* Makes the ui look terrible if you remove this, if you want to disable dark mode remember to delete all other dark mode related things */
+
 section.main{
   background-color: #1E1E1E !important;
 }
