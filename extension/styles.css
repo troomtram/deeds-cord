@@ -99,7 +99,7 @@ img[alt="View Profile"]{
   display: none !important;
 }
 /* Adds dark mode to calendar quick menu on homepage */
-div.fc-list-day-cushion.fc-cell-shaded{ /* Calandar current page box */
+div.fc-list-day-cushion.fc-cell-shaded{ /* Calendar current page box */
   background-color: #1E1E1E !important;
   color: white !important;
 }
