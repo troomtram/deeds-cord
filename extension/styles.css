@@ -10,10 +10,20 @@ Thanks, Dumbledore#5175 :)
 **Colours as of now: **
 Background: #121212
 Foreground: #1E1E1E
-Text: black
+Text: white
 Primary: #7C90B3 (https://discord.com/channels/826023027548225547/880268006788329522/895426527511064636)
 Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788329522/895426569890316308)
 */
+
+/* You can customize these variables to suit your liking */
+:root {
+  --background: #121212;
+  --foreground: #1E1E1E;
+  --text: white;
+  --primary: #7C90B3;
+  --secondary: #30567A;
+}
+
 
 /* ---------------------- GLOBAL (overrides everywhere) ---------------------- */
 /* Makes the images face out on hover */
@@ -45,33 +55,41 @@ li{
 
 /* Rounds all the section html elements (basically all the menus) */
 section {
-  background-color: #1E1E1E !important;
+  background-color: var(--foreground) !important;
 }
 
-/* Changes left and right slideout menus to #121212 */
+/* Changes left and right slideout menus to var (--background) */
 aside {
-  background-color: #121212 !important;
-  background: #121212 !important;
+  background-color: var(--background) !important;
+  background: var(--background) !important;
 }
 
 /* Changes all links to white */
 a {
-  color: white !important;
+  color: var(--text) !important;
 }
 
-/* Changes all headings to white */
+/* Changes all headings and text to white */
 h1 {
-  color: white !important;
+  color: var(--text) !important;
 }
 h2 {
-  color: white !important;
+  color: var(--text) !important;
 }
 h3 {
-  color: white !important;
+  color: var(--text) !important;
+}
+
+span{
+  color: var(--text) !important;
 }
 
 p {
-  color: white !important;
+  color: var(--text) !important;
+}
+/* ---------------------- CLASS PAGES ---------------------- */
+div.list-item{
+  background-color: var(--foreground) !important;
 }
 /* ---------------------- CLASSES PAGE ---------------------- */
 /* Makes the more menu button a circle in the classes page */
@@ -87,7 +105,7 @@ p {
 /* Rounds the bottom of the tiles on the classes pages (and the home page and other places I don't know about...)*/
 div.card-content.classes.actions-small-1{
   border-radius: 0px 0px 8px 8px !important;
-  background-color: #30567A !important;
+  background-color: var(--secondary) !important;
 }
 /* ---------------------- HOME PAGE ---------------------- */
 /* Removes Good evening, blah blah blah so you can stream yourself programming... */
@@ -100,21 +118,21 @@ img[alt="View Profile"]{
 }
 /* Adds dark mode to calendar quick menu on homepage */
 div.fc-list-day-cushion.fc-cell-shaded{ /* Calendar current page box */
-  background-color: #1E1E1E !important;
-  color: white !important;
+  background-color: var(--foreground) !important;
+  color: var(--text) !important;
 }
 
 /* Adds dark mode to calendar and puts it in it's own box! */
 div#calendar{
-  background-color: #30567A !important;
+  background-color: var(--secondary) !important;
   border-radius: 8px !important;
 }
 div#component3421{
-  background-color: #30567A !important;
+  background-color: var(--secondary) !important;
   border-radius: 8px !important;
 }
 div.fc-list-day-cushion.fc-cell-shaded{
-  background-color: #30567A !important;
+  background-color: var(--secondary) !important;
 }
 
 /* Removes DEEDS mobile app ad */
@@ -129,21 +147,21 @@ div.fc-list-day-cushion.fc-cell-shaded{
 
 /* Adds dark mode to the mini timetable */
 #component3419{
-  background-color: #1E1E1E !important;
+  background-color: var(--foreground) !important;
 }
 thead{
-  background-color: #1E1E1E !important;
-  color: white !important;
+  background-color: var(--foreground) !important;
+  color: var(--text) !important;
 }
 th{
-  color: white !important;
+  color: var(--text) !important;
 }
 table.timetable{
-  background-color: #1E1E1E !important;
+  background-color: var(--foreground) !important;
 }
 div.timetable-subject{
-  color: white !important;
-  background: #30567A !important;
+  color: var(--text) !important;
+  background: var(--secondary) !important;
 }
 
 /* Adds 10 pixels of padding to the subheader above the mini timetable */
@@ -153,7 +171,7 @@ div.timetable-subject{
 
 /* Replaces deeds icon with dark mode version */
 div.logo-wrapper{
-  background-color: #121212 !important;
+  background-color: var(--background) !important;
 }
 .logo {
   padding-left: 10% !important;
@@ -164,19 +182,19 @@ div.logo-wrapper{
 /* Makes the ui look terrible if you remove this, if you want to disable dark mode remember to delete all other dark mode related things */
 
 section.main{
-  background-color: #1E1E1E !important;
+  background-color: var(--foreground) !important;
 }
 /* ---------------------- NEWS PAGE ---------------------- */
 /* Adds rounded corners to the news floating tile */
 dl.tabs{
   border-radius: 8px !important;
-  background-color: #1E1E1E !important;
+  background-color: var(--foreground) !important;
 }
 
 /* Adds dark mode to news menus */
 li.actions-small-1{
-  background-color: #1E1E1E !important;
-  color: white !important;
+  background-color: var(--foreground) !important;
+  color: var(--text) !important;
 }
 
 /* ---------------------- BETA ---------------------- */
