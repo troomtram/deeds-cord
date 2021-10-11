@@ -87,6 +87,10 @@ span{
 p {
   color: var(--text) !important;
 }
+
+td {
+  color: var(--text) !important;
+}
 /* ---------------------- CLASS PAGES ---------------------- */
 div.list-item{
   background-color: var(--foreground) !important;
