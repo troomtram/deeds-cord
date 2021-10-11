@@ -96,7 +96,7 @@ div#component3418{
 }
 /* Changes your profile picture to whatever you want so you can stream yourself programming... */
 img[alt="View Profile"]{
-  display: none !important;
+  content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/guest-icon.png?raw=true) !important;
 }
 /* Adds dark mode to calendar quick menu on homepage */
 div.fc-list-day-cushion.fc-cell-shaded{ /* Calendar current page box */
