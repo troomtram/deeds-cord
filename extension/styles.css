@@ -201,6 +201,11 @@ li.actions-small-1{
   color: var(--text) !important;
 }
 
+div.empty-state.no-margin{
+  background-color: var(--secondary) !important;
+  color: var(--text) !important;
+  border-radius: 0px 0px 8px 8px !important;
+}
 /* ---------------------- BETA ---------------------- */
 /*
 IMPORTANT:
