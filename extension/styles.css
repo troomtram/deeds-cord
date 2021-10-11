@@ -187,14 +187,3 @@ a) Delete everything below before loading your extension if you don't want the u
 b) Don't delete everything below if you would like to test out the latest beta features of this extension.
 */
 /* THIS SECTION GETS COMMENTED OUT DURING STABLE RELEASES */
-
-a.icon-music span:nth-of-type(1) {
-    /* This gets you the first and only <span> */
-    visibility: hidden;
-}
-a.icon-music span:nth-of-type(1):after {
-    /* This gets you the first and only <span> */
-    content:'Music'; 
-    visibility: visible;
-    display: block;
-}
