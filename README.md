@@ -1,6 +1,6 @@
-# deeds-cord
+# DEEDS++
 ### About:
-A chrome extension to improve the look and feel of schoolbox (DEEDS).
+A chrome extension to improve the look and feel of DEEDS.
 
 ### Supported Browsers:
 - [Google Chrome](#google_chrome) | [Download](https://www.google.com.au/chrome/ "Download Google Chrome") (Mac/Win/Linux)
