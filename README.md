@@ -10,4 +10,4 @@ A chrome extension to improve the look and feel of schoolbox (DEEDS).
 Refer to the [wiki](https://github.com/cgsdiscord/deeds-cord/wiki) for more information.
 
 
-**Discalaimer: ***I (and other contributors) are not responsible for any trouble you may get in for putting dark mode and rounded corners in deeds...*
+**Discalaimer:** *I (and other contributors) are not responsible for any trouble you may get in for putting dark mode and rounded corners in deeds...*
