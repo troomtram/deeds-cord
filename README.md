@@ -14,8 +14,11 @@ A chrome extension to improve the look and feel of schoolbox (DEEDS).
 
 ## Versioning:
 This project uses [Semantic Versioning](https://semver.org)
+
 **X**.y.z = Major or backwards incompatiable updates. (Resets y & z when changed.) 
+
 x.**Y**.z = New backwards compatiable features. (Resets z when changed.)
+
 x.y.**Z** = New backwards compatiable bug fixes.
 ## How to install:
 (These are instructions for Google Chrome.)
