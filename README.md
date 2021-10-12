@@ -9,7 +9,7 @@ A chrome extension to improve the look and feel of schoolbox (DEEDS).
 - [Vivaldi Browser](#vivaldi) | [Download](https://vivaldi.com/download/ "Download Vivaldi Browser") (Mac/Win/Linux)
 - [Brave Browser](#brave) | [Download](https://brave.com/download/ "Download Brave Browser") (Mac/Win/Linux)
  
-#### Support soon:
+#### Support coming soon:
 - Safari
 
 ## How to install:
@@ -41,6 +41,13 @@ Refer to the [wiki](https://github.com/cgsdiscord/deeds-cord/wiki) for more info
 ### Opera <a name="opera"></a>
 
 ### Vivaldi Browser <a name="vivaldi"></a>
+1) Download your preferred release from the [releases page](https://github.com/cgsdiscord/deeds-cord/releases).
+2) Unzip the file.
+3) Navigate to __chrome://extensions__. 
+4) Turn on __Developer Mode__ at the top right.
+5) Click the __Load Unpacked__ button near the top left and select the folder you downloaded.
+6) When __Extension Loaded__ pops up near the bottom left, refresh the DEEDS website.
+
 
 ### Brave Browser <a name="brave"></a>
 1) Download your preferred release from the [releases page](https://github.com/cgsdiscord/deeds-cord/releases).
