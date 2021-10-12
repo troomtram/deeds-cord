@@ -3,11 +3,14 @@
 A chrome extension to improve the look and feel of schoolbox (DEEDS).
 
 ### Supported Browsers:
-- [Google Chrome](#google_chrome) | [Download](https://www.google.com.au/chrome/ "Download Google Chrome")
-- [Microsoft Edge](#edge) | [Download](https://www.microsoft.com/en-us/edge "Download Microsoft Edge")
-- [Opera](#opera) | [Download](https://www.opera.com/download "Download Opera")
-- [Vivaldi Browser](#vivaldi) | [Download](https://vivaldi.com/download/ "Download Vivaldi Browser")
-- [Brave Browser](#brave) | [Download](https://brave.com/download/ "Download Brave Browser")
+- [Google Chrome](#google_chrome) | [Download](https://www.google.com.au/chrome/ "Download Google Chrome") (Mac/Win/Linux)
+- [Microsoft Edge](#edge) | [Download](https://www.microsoft.com/en-us/edge "Download Microsoft Edge") (Mac/Win/Linux Beta)
+- [Opera](#opera) | [Download](https://www.opera.com/download "Download Opera") (Mac/Win/Linux)
+- [Vivaldi Browser](#vivaldi) | [Download](https://vivaldi.com/download/ "Download Vivaldi Browser") (Mac/Win/Linux)
+- [Brave Browser](#brave) | [Download](https://brave.com/download/ "Download Brave Browser") (Mac/Win/Linux)
+ 
+#### Support soon:
+- Safari
 
 ## How to install:
 (These are instructions for Google Chrome.)
@@ -31,6 +34,7 @@ Refer to the [wiki](https://github.com/cgsdiscord/deeds-cord/wiki) for more info
 ### Vivaldi Browser <a name="vivaldi"></a>
 
 ### Brave Browser <a name="brave"></a>
+
 
 
 **Discalaimer:** *I (and other contributors) are not responsible for any trouble you may get in for putting dark mode and rounded corners in deeds...*
