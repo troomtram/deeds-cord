@@ -18,9 +18,10 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
 /* You can customize these variables to suit your liking */
 :root {
   --background: #121212;
+  --middleground: #1E1E1E;
   --foreground: #1E1E1E;
   --text: white;
-  --primary: #30567A;
+  --primary: #ED4245;
   --secondary: #5865F2;
 }
 
