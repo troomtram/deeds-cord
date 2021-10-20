@@ -122,18 +122,17 @@ td {
   color: var(--text) !important;
 }
 /* ---------------------- INDIVIDUAL CLASSES PAGES ---------------------- */
+/* Adds the primary colour to all the collapsiable bars */
 div.list-item{
   background-color: var(--primary) !important;
   border-radius: 8px !important;
 }
+
+/* Prevents the collapsiable bars from not wanting to have rounded corners */
 .component-titlebar{
   background-color: var(--middleground) !important;
 }
-div.empty-state.no-margin{
-  background-color: var(--secondary) !important;
-  color: var(--text) !important;
-  border-radius: 8px !important;
-}
+
 
 /* Makes the more menu button a circle in the classes page */
 .icon-more{
