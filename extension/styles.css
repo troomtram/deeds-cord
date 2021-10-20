@@ -7,9 +7,11 @@ Thanks, Dumbledore#5175 :)
 */
 
 /*
-**Colours as of now: **
+Default colours:
+
 Background: #121212
-Foreground: #1E1E1E
+Middleground: #1E1E1E
+Foreground
 Text: white
 Primary: #7C90B3 (https://discord.com/channels/826023027548225547/880268006788329522/895426527511064636)
 Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788329522/895426569890316308)
@@ -17,9 +19,9 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
 
 /* You can customize these variables to suit your liking */
 :root {
-  --background: #121212;
-  --middleground: #1E1E1E;
-  --foreground: #1E1E1E;
+  --background: #121212; /* Normally the darkest colour on the page and used in the sidebars */
+  --middleground: #1E1E1E; /* This colour is used as the background for the main homepages. */
+  --foreground: #1E1E1E; /* This colour is used to contain the news along with other UI elements. */
   --text: white;
   --primary: #ED4245;
   --secondary: #5865F2;
@@ -49,14 +51,18 @@ img {
   border-radius: 8px !important;
 }
 
-/* Adds rounded corners to all the list items */
+/* Adds rounded corners to almost all the list items */
 li{
   border-radius: 8px !important;
 }
+li.separator{
+  border-radius: 0px !important;
+}
+
 
 /* Rounds all the section html elements (basically all the menus) */
 section {
-  background-color: var(--foreground) !important;
+  background-color: var(--middleground) !important;
 }
 
 /* Changes left and right slideout menus to var (--background) */
@@ -100,7 +106,7 @@ div.list-item{
   border-radius: 8px !important;
 }
 .component-titlebar{
-  background-color: var(--foreground) !important;
+  background-color: var(--middleground) !important;
 }
 div.empty-state.no-margin{
   background-color: var(--secondary) !important;
@@ -134,7 +140,7 @@ img[alt="View Profile"]{
 }
 /* Adds dark mode to calendar quick menu on homepage */
 div.fc-list-day-cushion.fc-cell-shaded{ /* Calendar current page box */
-  background-color: var(--foreground) !important;
+  background-color: var(--middleground) !important;
   color: var(--text) !important;
 }
 
@@ -163,17 +169,17 @@ div.fc-list-day-cushion.fc-cell-shaded{
 
 /* Adds dark mode to the mini timetable */
 #component3419{
-  background-color: var(--foreground) !important;
+  background-color: var(--middleground) !important;
 }
 thead{
-  background-color: var(--foreground) !important;
+  background-color: var(--middleground) !important;
   color: var(--text) !important;
 }
 th{
   color: var(--text) !important;
 }
 table.timetable{
-  background-color: var(--foreground) !important;
+  background-color: var(--middleground) !important;
 }
 div.timetable-subject{
   color: var(--text) !important;
@@ -198,18 +204,18 @@ div.logo-wrapper{
 /* Makes the ui look terrible if you remove this, if you want to disable dark mode remember to delete all other dark mode related things */
 
 section.main{
-  background-color: var(--foreground) !important;
+  background-color: var(--middleground) !important;
 }
 /* ---------------------- NEWS PAGE ---------------------- */
 /* Adds rounded corners to the news floating tile */
 dl.tabs{
   border-radius: 8px !important;
-  background-color: var(--foreground) !important;
+  background-color: var(--middleground) !important;
 }
 
 /* Adds dark mode to news menus */
 li.actions-small-1{
-  background-color: var(--foreground) !important;
+  background-color: var(--middleground) !important;
   color: var(--text) !important;
 }
 
