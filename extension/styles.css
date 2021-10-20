@@ -59,12 +59,19 @@ li.separator{
   border-radius: 0px !important;
 }
 
-/* Adds rounded corners to unordered lists (normally the lists which contain lists) */
-ul{
-  border-radius: 8px !important
-  background-color: var(--foreground)
+/* Adds rounded corners and dark mode to profile dropdown */
+ul#profile-options>li{
+  border-radius: 8px 8px 0px 0px !important;
+  background-color: var(--foreground) !important;
+  color: var(--text) !important;
 }
-
+ul#profile-options>li>a{
+  background-color: var(--foreground) !important;
+  color: var(--text) !important;
+}
+a.icon-logout{
+  border-radius: 0px 0px 8px 8px !important;
+}
 /* Rounds all the section html elements (basically all the menus) */
 section {
   background-color: var(--middleground) !important;
