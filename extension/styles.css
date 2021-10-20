@@ -149,6 +149,17 @@ div.card-content.classes.actions-small-1{
   border-radius: 0px 0px 8px 8px !important;
   background-color: var(--secondary) !important;
 }
+
+/* Fixes the white replies to OP bug */
+li.actions-small-2{
+  background-color: var(--middleground) !important;
+  border-radius: 8px !important;
+}
+ul.information-list.reply{
+  border-radius: 8px !important;
+  border-color: var(--primary) !important;
+  background-color: var(--middleground) !important;
+}
 /* ---------------------- HOME PAGE ---------------------- */
 /* Removes Good evening, blah blah blah so you can stream yourself programming... */
 div#component3418{
