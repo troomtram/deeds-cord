@@ -128,7 +128,7 @@ div.empty-state.no-margin{
   color: var(--text) !important;
   border-radius: 8px !important;
 }
-/* ---------------------- CLASSES PAGE ---------------------- */
+/* ---------------------- INDIVIDUAL CLASSES PAGE ---------------------- */
 /* Makes the more menu button a circle in the classes page */
 .icon-more{
   border-radius: 100px !important;
@@ -137,6 +137,11 @@ div.empty-state.no-margin{
 /* Rounds the class image in the classes page in the top left and right corners */
 .card-class-image{
   border-radius: 8px 8px 0px 0px !important;
+}
+
+/* Applies transparency effect so you can see the text of a tile */
+span.title.text-bottom.text-center{
+  background-color: rgba(51, 51, 51,0.5) !important;
 }
 
 /* Rounds the bottom of the tiles on the classes pages (and the home page and other places I don't know about...)*/
