@@ -21,7 +21,7 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
 :root {
   --background: #121212; /* Normally the darkest colour on the page and used in the sidebars */
   --middleground: #1E1E1E; /* This colour is used as the background for the main homepages. */
-  --foreground: #1E1E1E; /* This colour is used to contain the news along with other UI elements. */
+  --foreground: #333333; /* This colour is used to contain the news along with other UI elements. */
   --text: white;
   --primary: #ED4245;
   --secondary: #5865F2;
@@ -59,6 +59,11 @@ li.separator{
   border-radius: 0px !important;
 }
 
+/* Adds rounded corners to unordered lists (normally the lists which contain lists) */
+ul{
+  border-radius: 8px !important
+  background-color: var(--foreground)
+}
 
 /* Rounds all the section html elements (basically all the menus) */
 section {
@@ -137,11 +142,6 @@ div#component3418{
 /* Changes your profile picture to whatever you want so you can stream yourself programming... */
 img[alt="View Profile"]{
   content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/guest-icon.png?raw=true) !important;
-}
-/* Adds dark mode to calendar quick menu on homepage */
-div.fc-list-day-cushion.fc-cell-shaded{ /* Calendar current page box */
-  background-color: var(--middleground) !important;
-  color: var(--text) !important;
 }
 
 /* Adds dark mode to calendar and puts it in it's own box! */
