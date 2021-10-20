@@ -49,11 +49,6 @@ img {
   border-radius: 8px !important;
 }
 
-/* Adds rounded corners to all the list items */
-li{
-  border-radius: 8px !important;
-}
-
 /* Rounds all the section html elements (basically all the menus) */
 section {
   background-color: var(--foreground) !important;
