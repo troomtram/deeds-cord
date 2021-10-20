@@ -60,6 +60,9 @@ li.separator{
 }
 
 /* Adds rounded corners and dark mode to profile dropdown */
+div#account-content.account-drop.open{
+  border-radius: 8px !important;
+}
 ul#profile-options>li{
   border-radius: 8px 8px 0px 0px !important;
   background-color: var(--foreground) !important;
