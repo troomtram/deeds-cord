@@ -8,7 +8,6 @@ Thanks, Dumbledore#5175 :)
 
 /*
 Default colours:
-
 Background: #121212
 Middleground: #1E1E1E
 Foreground
@@ -19,237 +18,243 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
 
 /* You can customize these variables to suit your liking */
 :root {
-  --background: #121212; /* Normally the darkest colour on the page and used in the sidebars */
-  --middleground: #1E1E1E; /* This colour is used as the background for the main homepages. */
-  --foreground: #333333; /* This colour is used to contain the news along with other UI elements. */
-  --text: white;
-  --primary: #ED4245;
-  --secondary: #5865F2;
-}
-
-
-/* ---------------------- GLOBAL (overrides everywhere) ---------------------- */
-/* Makes the images face out on hover */
-@media (prefers-color-scheme: dark) {
+    --background: #121212; /* Normally the darkest colour on the page and used in the sidebars */
+    --middleground: #1E1E1E; /* This colour is used as the background for the main homepages. */
+    --foreground: #333333; /* This colour is used to contain the news along with other UI elements. */
+    --text: white;
+    --primary: #ED4245;
+    --secondary: #5865F2;
+  }
+  
+  
+  /* ---------------------- GLOBAL (overrides everywhere) ---------------------- */
+  /* Makes the images face out on hover */
+  @media (prefers-color-scheme: dark) {
+    img {
+      opacity: 100% !important;
+      transition: opacity .5s ease-in-out !important;
+    }
+    img:hover {
+      opacity: .75 !important;
+  
+    }
+  }
+  
+  /* Makes star button on hover a circle */
+  .icon-favourite-hollow{
+    border-radius: 100px !important;
+  }
+  
+  /* Adds rounded corners to pictures everywhere */
   img {
-    opacity: 100% !important;
-    transition: opacity .5s ease-in-out !important;
+    border-radius: 8px !important;
   }
-  img:hover {
-    opacity: .75 !important;
-
+  
+  /* Adds rounded corners to almost all the list items */
+  li{
+    border-radius: 8px !important;
   }
-}
+  li.separator{
+    border-radius: 0px !important;
+  }
+  
+  /* Adds rounded corners and dark mode to profile dropdown */
+  div#account-content.account-drop.open{
+    border-radius: 8px !important;
+  }
+  ul#profile-options>li{
+    border-radius: 8px 8px 0px 0px !important;
+    background-color: var(--foreground) !important;
+    color: var(--text) !important;
+  }
+  ul#profile-options>li>a{
+    background-color: var(--foreground) !important;
+    color: var(--text) !important;
+  }
+  a.icon-logout{
+    border-radius: 0px 0px 8px 8px !important;
+  }
 
-/* Makes star button on hover a circle */
-.icon-favourite-hollow{
-  border-radius: 100px !important;
-}
+  /* removes white bar at right of profile dropdown */
+ .account-drop::-webkit-scrollbar-track {
+   display: none;
+  }
+  /* Rounds all the section html elements (basically all the menus) */
+  section {
+    background-color: var(--middleground) !important;
+  }
+  
+  /* Changes left and right slideout menus to var (--background) */
+  aside {
+    background-color: var(--background) !important;
+    background: var(--background) !important;
+  }
+  
+  /* Changes all links to white */
+  a {
+    color: var(--text) !important;
+  }
+  
+  /* Changes all headings and text to white */
+  h1 {
+    color: var(--text) !important;
+  }
+  h2 {
+    color: var(--text) !important;
+  }
+  h3 {
+    color: var(--text) !important;
+  }
+  
+  span{
+    color: var(--text) !important;
+    /* Fix bugs on pages such as the deeds.cgs.vic.edu.au/policy white highlighting issue. */
+    background-color: transparent !important;
+  }
+  
+  p {
+    color: var(--text) !important;
+  }
+  
+  td {
+    color: var(--text) !important;
+  }
+  /* ---------------------- INDIVIDUAL CLASSES PAGES ---------------------- */
+  div.list-item{
+    background-color: var(--primary) !important;
+    border-radius: 8px !important;
+  }
+  .component-titlebar{
+    background-color: var(--middleground) !important;
+  }
+  div.empty-state.no-margin{
+    background-color: var(--secondary) !important;
+    color: var(--text) !important;
+    border-radius: 8px !important;
+  }
+  
+  /* Makes the more menu button a circle in the classes page */
+  .icon-more{
+    border-radius: 100px !important;
+  }
+  
+  /* Rounds the class image in the classes page in the top left and right corners */
+  .card-class-image{
+    border-radius: 8px 8px 0px 0px !important;
+  }
+  
+  /* Applies transparency effect so you can see the text of a tile */
+  span.title.text-bottom.text-center{
+    background-color: rgba(51, 51, 51,0.5) !important;
+  }
+  
+  /* Rounds the bottom of the tiles on the classes pages (and the home page and other places I don't know about...)*/
+  div.card-content.classes.actions-small-1{
+    border-radius: 0px 0px 8px 8px !important;
+    background-color: var(--secondary) !important;
+  }
+  
+  /* Fixes the white replies to OP bug */
+  li.actions-small-2{
+    background-color: var(--middleground) !important;
+    border-radius: 8px !important;
+  }
+  ul.information-list.reply{
+    border-radius: 8px !important;
+    border-color: var(--primary) !important;
+    background-color: var(--middleground) !important;
+  }
+  /* ---------------------- HOME PAGE ---------------------- */
+  /* Removes Good evening, blah blah blah so you can stream yourself programming... */
+  div#component3418{
+    display: none;
+  }
+  /* Changes your profile picture to whatever you want so you can stream yourself programming... */
+  img[alt="View Profile"]{
+    content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/guest-icon.png?raw=true) !important;
+  }
+  
+  /* Adds dark mode to calendar and puts it in it's own box! */
+  div#calendar{
+    background-color: var(--foreground) !important;
+    border-radius: 8px !important;
+  }
+  div#component3421{
+    background-color: var(--foreground) !important;
+    border-radius: 8px !important;
+  }
+  div.fc-list-day-cushion.fc-cell-shaded{
+    background-color: var(--foreground) !important;
+  }
+  
+  /* Removes DEEDS mobile app ad */
+  #component20175 {
+    display: none !important;
+  }
+  
+  /* Adds rounded corners to the mini timetable */
+  #component3419{
+    border-radius: 8px 8px 8px 8px !important;
+  }
+  
+  /* Adds dark mode to the mini timetable */
+  #component3419{
+    background-color: var(--middleground) !important;
+  }
+  thead{
+    background-color: var(--middleground) !important;
+    color: var(--text) !important;
+  }
+  th{
+    color: var(--text) !important;
+  }
+  table.timetable{
+    background-color: var(--middleground) !important;
+  }
+  div.timetable-subject{
+    color: var(--text) !important;
+    background: var(--secondary) !important;
+  }
+  
+  /* Adds 10 pixels of padding to the subheader above the mini timetable */
+  .subheader{
+    padding-left: 10px !important;
+  }
+  
+  /* Replaces deeds icon with dark mode version */
+  div.logo-wrapper{
+    background-color: var(--background) !important;
+  }
+  .logo {
+    padding-left: 10% !important;
+    content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/deeds-logo.png?raw=true);
+  }
+  
+  /* Adds dark mode to the background of homepage */
+  /* Makes the ui look terrible if you remove this, if you want to disable dark mode remember to delete all other dark mode related things */
+  
+  section.main{
+    background-color: var(--middleground) !important;
+  }
+  /* ---------------------- NEWS PAGE ---------------------- */
+  /* Adds rounded corners to the news floating tile */
+  dl.tabs{
+    border-radius: 8px !important;
+    background-color: var(--middleground) !important;
+  }
+  
+  /* Adds dark mode to news menus */
+  li.actions-small-1{
+    background-color: var(--middleground) !important;
+    color: var(--text) !important;
+  }
 
-/* Adds rounded corners to pictures everywhere */
-img {
-  border-radius: 8px !important;
-}
-
-/* Adds rounded corners to almost all the list items */
-li{
-  border-radius: 8px !important;
-}
-li.separator{
-  border-radius: 0px !important;
-}
-
-/* Adds rounded corners and dark mode to profile dropdown */
-div#account-content.account-drop.open{
-  border-radius: 8px !important;
-}
-ul#profile-options>li{
-  border-radius: 8px 8px 0px 0px !important;
-  background-color: var(--foreground) !important;
-  color: var(--text) !important;
-}
-ul#profile-options>li>a{
-  background-color: var(--foreground) !important;
-  color: var(--text) !important;
-}
-a.icon-logout{
-  border-radius: 0px 0px 8px 8px !important;
-}
-/* Rounds all the section html elements (basically all the menus) */
-section {
-  background-color: var(--middleground) !important;
-}
-
-/* Changes left and right slideout menus to var (--background) */
-aside {
-  background-color: var(--background) !important;
-  background: var(--background) !important;
-}
-
-/* Changes all links to white */
-a {
-  color: var(--text) !important;
-}
-
-/* Changes all headings and text to white */
-h1 {
-  color: var(--text) !important;
-}
-h2 {
-  color: var(--text) !important;
-}
-h3 {
-  color: var(--text) !important;
-}
-
-span{
-  color: var(--text) !important;
-  /* Fix bugs on pages such as the deeds.cgs.vic.edu.au/policy white highlighting issue. */
-  background-color: transparent !important;
-}
-
-p {
-  color: var(--text) !important;
-}
-
-td {
-  color: var(--text) !important;
-}
-/* ---------------------- INDIVIDUAL CLASSES PAGES ---------------------- */
-div.list-item{
-  background-color: var(--primary) !important;
-  border-radius: 8px !important;
-}
-.component-titlebar{
-  background-color: var(--middleground) !important;
-}
-div.empty-state.no-margin{
-  background-color: var(--secondary) !important;
-  color: var(--text) !important;
-  border-radius: 8px !important;
-}
-
-/* Makes the more menu button a circle in the classes page */
-.icon-more{
-  border-radius: 100px !important;
-}
-
-/* Rounds the class image in the classes page in the top left and right corners */
-.card-class-image{
-  border-radius: 8px 8px 0px 0px !important;
-}
-
-/* Applies transparency effect so you can see the text of a tile */
-span.title.text-bottom.text-center{
-  background-color: rgba(51, 51, 51,0.5) !important;
-}
-
-/* Rounds the bottom of the tiles on the classes pages (and the home page and other places I don't know about...)*/
-div.card-content.classes.actions-small-1{
-  border-radius: 0px 0px 8px 8px !important;
-  background-color: var(--secondary) !important;
-}
-
-/* Fixes the white replies to OP bug */
-li.actions-small-2{
-  background-color: var(--middleground) !important;
-  border-radius: 8px !important;
-}
-ul.information-list.reply{
-  border-radius: 8px !important;
-  border-color: var(--primary) !important;
-  background-color: var(--middleground) !important;
-}
-/* ---------------------- HOME PAGE ---------------------- */
-/* Removes Good evening, blah blah blah so you can stream yourself programming... */
-div#component3418{
-  display: none;
-}
-/* Changes your profile picture to whatever you want so you can stream yourself programming... */
-img[alt="View Profile"]{
-  content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/guest-icon.png?raw=true) !important;
-}
-
-/* Adds dark mode to calendar and puts it in it's own box! */
-div#calendar{
-  background-color: var(--foreground) !important;
-  border-radius: 8px !important;
-}
-div#component3421{
-  background-color: var(--foreground) !important;
-  border-radius: 8px !important;
-}
-div.fc-list-day-cushion.fc-cell-shaded{
-  background-color: var(--foreground) !important;
-}
-
-/* Removes DEEDS mobile app ad */
-#component20175 {
-  display: none !important;
-}
-
-/* Adds rounded corners to the mini timetable */
-#component3419{
-  border-radius: 8px 8px 8px 8px !important;
-}
-
-/* Adds dark mode to the mini timetable */
-#component3419{
-  background-color: var(--middleground) !important;
-}
-thead{
-  background-color: var(--middleground) !important;
-  color: var(--text) !important;
-}
-th{
-  color: var(--text) !important;
-}
-table.timetable{
-  background-color: var(--middleground) !important;
-}
-div.timetable-subject{
-  color: var(--text) !important;
-  background: var(--secondary) !important;
-}
-
-/* Adds 10 pixels of padding to the subheader above the mini timetable */
-.subheader{
-  padding-left: 10px !important;
-}
-
-/* Replaces deeds icon with dark mode version */
-div.logo-wrapper{
-  background-color: var(--background) !important;
-}
-.logo {
-  padding-left: 10% !important;
-  content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/deeds-logo.png?raw=true);
-}
-
-/* Adds dark mode to the background of homepage */
-/* Makes the ui look terrible if you remove this, if you want to disable dark mode remember to delete all other dark mode related things */
-
-section.main{
-  background-color: var(--middleground) !important;
-}
-/* ---------------------- NEWS PAGE ---------------------- */
-/* Adds rounded corners to the news floating tile */
-dl.tabs{
-  border-radius: 8px !important;
-  background-color: var(--middleground) !important;
-}
-
-/* Adds dark mode to news menus */
-li.actions-small-1{
-  background-color: var(--middleground) !important;
-  color: var(--text) !important;
-}
-
-/* ---------------------- BETA ---------------------- */
-/*
-IMPORTANT:
-Everything below is currently in beta, you have to options:
-a) Delete everything below before loading your extension if you don't want the user interface to look bad.
-b) Don't delete everything below if you would like to test out the latest beta features of this extension.
-*/
-/* THIS SECTION GETS COMMENTED OUT DURING STABLE RELEASES */
+  
+  /* ---------------------- BETA ---------------------- */
+  /*
+  IMPORTANT:
+  Everything below is currently in beta, you have to options:
+  a) Delete everything below before loading your extension if you don't want the user interface to look bad.
+  b) Don't delete everything below if you would like to test out the latest beta features of this extension.
+  */
+  /* THIS SECTION GETS COMMENTED OUT DURING STABLE RELEASES */
