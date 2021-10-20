@@ -50,7 +50,7 @@ img {
 }
 
 /* Adds rounded corners to all the unordered lists */
-ul{
+li{
   border-radius: 8px !important;
 }
 
