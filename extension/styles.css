@@ -80,6 +80,7 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
  .account-drop::-webkit-scrollbar-track {
    display: none;
   }
+
   /* Rounds all the section html elements (basically all the menus) */
   section {
     background-color: var(--middleground) !important;
