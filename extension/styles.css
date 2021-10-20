@@ -18,13 +18,13 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
 
 /* You can customize these variables to suit your liking */
 :root {
-    --background: #121212; /* Normally the darkest colour on the page and used in the sidebars */
-    --middleground: #1E1E1E; /* This colour is used as the background for the main homepages. */
-    --foreground: #333333; /* This colour is used to contain the news along with other UI elements. */
-    --text: white;
-    --primary: #ED4245;
-    --secondary: #5865F2;
-  }
+  --background: #121212; /* Normally the darkest colour on the page and used in the sidebars */
+  --middleground: #1E1E1E; /* This colour is used as the background for the main homepages. */
+  --foreground: #333333; /* This colour is used to contain the news along with other UI elements. */
+  --text: white;
+  --primary: #ED4245;
+  --secondary: #5865F2;
+}
 
 
   /* ---------------------- GLOBAL (overrides everywhere) ---------------------- */
