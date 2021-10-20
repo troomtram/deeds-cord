@@ -1,6 +1,6 @@
 # DEEDS++
 ### About:
-A chrome extension to improve the look and feel of DEEDS.
+A chrome extension to improve the look and feel of DEEDS. [Download the latest release here!](https://github.com/cgsdiscord/deeds-cord/releases/latest)
 
 ### Supported Browsers:
 - [Google Chrome](#google_chrome) | [Download](https://www.google.com.au/chrome/ "Download Google Chrome") (Mac/Win/Linux)
