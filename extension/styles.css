@@ -61,9 +61,10 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
   /* Adds rounded corners and dark mode to profile dropdown */
   div#account-content.account-drop.open{
     border-radius: 8px !important;
+    background-color: var(--foreground) !important;
   }
   ul#profile-options>li{
-    border-radius: 8px 8px 0px 0px !important;
+    border-radius: 8px !important;
     background-color: var(--foreground) !important;
     color: var(--text) !important;
   }
