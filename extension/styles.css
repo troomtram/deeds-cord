@@ -49,7 +49,7 @@ img {
   border-radius: 8px !important;
 }
 
-/* Adds rounded corners to all the unordered lists */
+/* Adds rounded corners to all the list items */
 li{
   border-radius: 8px !important;
 }
