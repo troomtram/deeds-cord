@@ -25,8 +25,8 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
     --primary: #ED4245;
     --secondary: #5865F2;
   }
-  
-  
+
+
   /* ---------------------- GLOBAL (overrides everywhere) ---------------------- */
   /* Makes the images face out on hover */
   @media (prefers-color-scheme: dark) {
@@ -36,20 +36,20 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
     }
     img:hover {
       opacity: .75 !important;
-  
+
     }
   }
-  
+
   /* Makes star button on hover a circle */
   .icon-favourite-hollow{
     border-radius: 100px !important;
   }
-  
+
   /* Adds rounded corners to pictures everywhere */
   img {
     border-radius: 8px !important;
   }
-  
+
   /* Adds rounded corners to almost all the list items */
   li{
     border-radius: 8px !important;
@@ -57,7 +57,7 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
   li.separator{
     border-radius: 0px !important;
   }
-  
+
   /* Adds rounded corners and dark mode to profile dropdown */
   div#account-content.account-drop.open{
     border-radius: 8px !important;
@@ -75,7 +75,7 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
     border-radius: 0px 0px 8px 8px !important;
   }
 
-  /* removes white bar at right of profile dropdown */
+  /* Removes white bar at right of profile dropdown */
  .account-drop::-webkit-scrollbar-track {
    display: none;
   }
@@ -83,18 +83,18 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
   section {
     background-color: var(--middleground) !important;
   }
-  
+
   /* Changes left and right slideout menus to var (--background) */
   aside {
     background-color: var(--background) !important;
     background: var(--background) !important;
   }
-  
+
   /* Changes all links to white */
   a {
     color: var(--text) !important;
   }
-  
+
   /* Changes all headings and text to white */
   h1 {
     color: var(--text) !important;
@@ -105,17 +105,17 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
   h3 {
     color: var(--text) !important;
   }
-  
+
   span{
     color: var(--text) !important;
     /* Fix bugs on pages such as the deeds.cgs.vic.edu.au/policy white highlighting issue. */
     background-color: transparent !important;
   }
-  
+
   p {
     color: var(--text) !important;
   }
-  
+
   td {
     color: var(--text) !important;
   }
@@ -132,28 +132,28 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
     color: var(--text) !important;
     border-radius: 8px !important;
   }
-  
+
   /* Makes the more menu button a circle in the classes page */
   .icon-more{
     border-radius: 100px !important;
   }
-  
+
   /* Rounds the class image in the classes page in the top left and right corners */
   .card-class-image{
     border-radius: 8px 8px 0px 0px !important;
   }
-  
+
   /* Applies transparency effect so you can see the text of a tile */
   span.title.text-bottom.text-center{
     background-color: rgba(51, 51, 51,0.5) !important;
   }
-  
+
   /* Rounds the bottom of the tiles on the classes pages (and the home page and other places I don't know about...)*/
   div.card-content.classes.actions-small-1{
     border-radius: 0px 0px 8px 8px !important;
     background-color: var(--secondary) !important;
   }
-  
+
   /* Fixes the white replies to OP bug */
   li.actions-small-2{
     background-color: var(--middleground) !important;
@@ -173,7 +173,7 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
   img[alt="View Profile"]{
     content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/guest-icon.png?raw=true) !important;
   }
-  
+
   /* Adds dark mode to calendar and puts it in it's own box! */
   div#calendar{
     background-color: var(--foreground) !important;
@@ -186,17 +186,17 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
   div.fc-list-day-cushion.fc-cell-shaded{
     background-color: var(--foreground) !important;
   }
-  
+
   /* Removes DEEDS mobile app ad */
   #component20175 {
     display: none !important;
   }
-  
+
   /* Adds rounded corners to the mini timetable */
   #component3419{
     border-radius: 8px 8px 8px 8px !important;
   }
-  
+
   /* Adds dark mode to the mini timetable */
   #component3419{
     background-color: var(--middleground) !important;
@@ -215,12 +215,12 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
     color: var(--text) !important;
     background: var(--secondary) !important;
   }
-  
+
   /* Adds 10 pixels of padding to the subheader above the mini timetable */
   .subheader{
     padding-left: 10px !important;
   }
-  
+
   /* Replaces deeds icon with dark mode version */
   div.logo-wrapper{
     background-color: var(--background) !important;
@@ -229,10 +229,10 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
     padding-left: 10% !important;
     content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/deeds-logo.png?raw=true);
   }
-  
+
   /* Adds dark mode to the background of homepage */
   /* Makes the ui look terrible if you remove this, if you want to disable dark mode remember to delete all other dark mode related things */
-  
+
   section.main{
     background-color: var(--middleground) !important;
   }
@@ -242,14 +242,14 @@ Secondary: #30567A (https://discord.com/channels/826023027548225547/880268006788
     border-radius: 8px !important;
     background-color: var(--middleground) !important;
   }
-  
+
   /* Adds dark mode to news menus */
   li.actions-small-1{
     background-color: var(--middleground) !important;
     color: var(--text) !important;
   }
 
-  
+
   /* ---------------------- BETA ---------------------- */
   /*
   IMPORTANT:
