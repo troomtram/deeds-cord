@@ -146,15 +146,15 @@ img[alt="View Profile"]{
 
 /* Adds dark mode to calendar and puts it in it's own box! */
 div#calendar{
-  background-color: var(--secondary) !important;
+  background-color: var(--foreground) !important;
   border-radius: 8px !important;
 }
 div#component3421{
-  background-color: var(--secondary) !important;
+  background-color: var(--foreground) !important;
   border-radius: 8px !important;
 }
 div.fc-list-day-cushion.fc-cell-shaded{
-  background-color: var(--secondary) !important;
+  background-color: var(--foreground) !important;
 }
 
 /* Removes DEEDS mobile app ad */
