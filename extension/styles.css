@@ -120,7 +120,6 @@ p {
 
 td {
   color: var(--text) !important;
-  background-color: var(--foreground) !important;
 }
 /* ---------------------- INDIVIDUAL CLASSES PAGES ---------------------- */
 /* Adds the primary colour to all the collapsiable bars */
@@ -176,10 +175,6 @@ img[alt="View Profile"]{
 }
 
 /* Adds dark mode to calendar and puts it in it's own box! */
-div#calendar{
-  background-color: var(--foreground) !important;
-  border-radius: 8px !important;
-}
 div#component3421{
   background-color: var(--foreground) !important;
   border-radius: 8px !important;
