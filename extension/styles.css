@@ -119,6 +119,16 @@ p {
 td {
   color: var(--text) !important;
 }
+/* ---------------------- QUIZZES PAGES ---------------------- */
+.row>div>div>table>tbody{
+  background-color: var(--foreground) !important;
+  border-radius: 8px !important;
+}
+.row>div>table>tbody{
+  background-color: var(--foreground) !important;
+  border-radius: 8px !important;
+}
+
 /* ---------------------- INDIVIDUAL CLASSES PAGES ---------------------- */
 div.list-item{
   background-color: var(--primary) !important;
