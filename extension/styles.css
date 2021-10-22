@@ -194,12 +194,12 @@ div.fc-list-day-cushion.fc-cell-shaded{
 }
 
 /* Adds rounded corners to the mini timetable */
-#component3421{
+#component3419{
   border-radius: 8px 8px 8px 8px !important;
 }
 
 /* Adds dark mode to the mini timetable */
-#component3421{
+#component3419{
   background-color: var(--middleground) !important;
 }
 thead{
