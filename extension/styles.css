@@ -120,6 +120,7 @@ p {
 
 td {
   color: var(--text) !important;
+  background-color: var(--foreground) !important;
 }
 /* ---------------------- INDIVIDUAL CLASSES PAGES ---------------------- */
 /* Adds the primary colour to all the collapsiable bars */
@@ -132,7 +133,6 @@ div.list-item{
 .component-titlebar{
   background-color: var(--middleground) !important;
 }
-
 
 /* Makes the more menu button a circle in the classes page */
 .icon-more{
@@ -226,11 +226,15 @@ div.timetable-subject{
 div.logo-wrapper{
   background-color: var(--background) !important;
 }
-.logo {
+div.logo-wrapper > a{
   padding-left: 10% !important;
   content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/deeds-logo.png?raw=true);
 }
-
+/*
+section.tab-bar-section>a>img{
+  content: url(https://fonts.gstatic.com/s/i/materialiconsoutlined/home/v15/24px.svg) !important;
+}
+*/
 /* Adds dark mode to the background of homepage */
 /* Makes the ui look terrible if you remove this, if you want to disable dark mode remember to delete all other dark mode related things */
 
