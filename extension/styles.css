@@ -26,34 +26,28 @@ Secondary: #30567A
 }
 
 
-  /* ---------------------- GLOBAL (overrides everywhere) ---------------------- */
-  /* Makes the images face out on hover */
-  @media (prefers-color-scheme: dark) {
-    img {
-      opacity: 100% !important;
-      transition: opacity .5s ease-in-out !important;
-    }
-    img:hover {
-      opacity: .75 !important;
-
-    }
+/* ---------------------- GLOBAL (overrides everywhere) ---------------------- */
+/* Makes the images face out on hover */
+@media (prefers-color-scheme: dark) {
+  img {
+    opacity: 100% !important;
+    transition: opacity .5s ease-in-out !important;
   }
-
-  /* Fix issue #15 class tile bug */
-  div#component15473>div>div>section>div>div>div{
-    background-color: var(--primary) !important;
+  img:hover {
+    opacity: .75 !important;
   }
-  
+}
+
+/* Fix issue #15 class tile bug */
+div#component15473>div>div>section>div>div>div{
+  background-color: var(--primary) !important;
+}
+
 /* Chnages what happens when you hover over a link */
 a:hover {
     background-color: var(--secondary) !important;
     border-radius: 8px;
     opacity: 0.5 !important;
-}
-
-/* Makes star button on hover a circle */
-.icon-favourite-hollow{
-  border-radius: 100px !important;
 }
 
 /* Adds rounded corners to pictures everywhere */
