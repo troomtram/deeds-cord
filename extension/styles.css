@@ -120,6 +120,7 @@ td {
   color: var(--text) !important;
 }
 /* ---------------------- QUIZZES PAGES ---------------------- */
+/* Adds dark mode to the start quiz confirmation page */
 .row>div>div>table>tbody{
   background-color: var(--foreground) !important;
   border-radius: 8px !important;
@@ -127,6 +128,10 @@ td {
 .row>div>table>tbody{
   background-color: var(--foreground) !important;
   border-radius: 8px !important;
+}
+/* Adds dark mode to the timer in the quiz */
+time#evaluation-countdown{
+  color: var(--text) !important;
 }
 
 /* ---------------------- INDIVIDUAL CLASSES PAGES ---------------------- */
