@@ -265,7 +265,7 @@ div.timetable-subject{
 div.logo-wrapper{
   background-color: var(--background) !important;
 }
-.logo {
+div.logo-wrapper>a {
   padding-left: 10% !important;
   content: url(https://github.com/cgsdiscord/deeds-cord/blob/main/extension/assets/deeds-logo.png?raw=true);
 }
@@ -288,6 +288,10 @@ li.actions-small-1{
   background-color: var(--middleground) !important;
   color: var(--text) !important;
 }
+
+/* ---------------------- ICONS ---------------------- */
+/* Changes the due work icon */
+
 
 
 /* ---------------------- BETA ---------------------- */
