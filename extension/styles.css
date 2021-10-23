@@ -133,7 +133,10 @@ td {
 time#evaluation-countdown{
   color: var(--text) !important;
 }
-
+/* Adds dark mode to titles of progress bars (eg. "Multiple choice questions") */
+p.meta.title{
+  color: var(--text) !important;
+}
 /* ---------------------- INDIVIDUAL CLASSES PAGES ---------------------- */
 div.list-item{
   background-color: var(--primary) !important;
