@@ -146,6 +146,18 @@ div.cke_inner.cke_reset{
   background-color: var(--foreground) !important;
   color: var(--text) !important;
 }
+
+/* Invert buttons in big text input boxes */
+span.cke_button_icon{
+  filter: invert(100%) !important;
+}
+
+/* Adds dark mode to the small text input boxes */
+input{
+  background-color: var(--foreground) !important;
+  color: var(--text) !important;
+}
+
 /* ---------------------- INDIVIDUAL CLASSES PAGES ---------------------- */
 div.list-item{
   background-color: var(--primary) !important;
