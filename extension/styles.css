@@ -22,6 +22,7 @@ Secondary: #30567A
   --text: white;
   --primary: #ED4245;
   --secondary: #5865F2;
+  --body-background: #1E1E1E !important; /* Keep this the same as middleground for best results */
 }
 
 
@@ -56,6 +57,10 @@ li.separator{
   border-radius: 0px !important;
 }
 
+/* Removes bottom-borders everywhere */
+dl.tabs{
+  border-bottom: none !important;
+}
 /* Adds rounded corners and dark mode to profile dropdown */
 div#account-content.account-drop.open{
   border-radius: 8px !important;
