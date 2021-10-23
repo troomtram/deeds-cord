@@ -137,6 +137,15 @@ time#evaluation-countdown{
 p.meta.title{
   color: var(--text) !important;
 }
+/* Adds dark mode to the multiple choice answer labels */
+label.radio-label{
+  color: var(--text) !important;
+}
+/* Adds dark mode to the big text input boxes */
+div.cke_inner.cke_reset{
+  background-color: var(--foreground) !important;
+  color: var(--text) !important;
+}
 /* ---------------------- INDIVIDUAL CLASSES PAGES ---------------------- */
 div.list-item{
   background-color: var(--primary) !important;
