@@ -19,9 +19,9 @@ Secondary: #30567A
   --background: #121212; /* Normally the darkest colour on the page and used in the sidebars */
   --middleground: #1E1E1E; /* This colour is used as the background for the main homepages. */
   --foreground: #333333; /* This colour is used to contain the news along with other UI elements. */
-  --text: white;
-  --primary: #ED4245;
-  --secondary: #5865F2;
+  --text: white; /* The colour of text */
+  --primary: #ED4245; /* Used for dropdown menu's and timetables */
+  --secondary: #5865F2; /* Used for buttons */
   --body-background: #1E1E1E !important; /* Keep this the same as middleground for best results */
 }
 
@@ -38,6 +38,13 @@ Secondary: #30567A
 
     }
   }
+
+/* Chnages what happens when you hover over a link */
+a:hover {
+    background-color: var(--secondary) !important;
+    border-radius: 8px;
+    opacity: 0.5 !important;
+}
 
 /* Makes star button on hover a circle */
 .icon-favourite-hollow{
