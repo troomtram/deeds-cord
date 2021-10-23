@@ -39,6 +39,11 @@ Secondary: #30567A
     }
   }
 
+  /* Fix issue #15 class tile bug */
+  div#component15473>div>div>section>div>div>div{
+    background-color: var(--primary) !important;
+  }
+  
 /* Chnages what happens when you hover over a link */
 a:hover {
     background-color: var(--secondary) !important;
