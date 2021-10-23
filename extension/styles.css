@@ -57,10 +57,11 @@ li.separator{
   border-radius: 0px !important;
 }
 
-/* Removes bottom-borders everywhere */
+/* Removes bottom-borders everywhere (issue #20)*/
 dl.tabs{
   border-bottom: none !important;
 }
+
 /* Adds rounded corners and dark mode to profile dropdown */
 div#account-content.account-drop.open{
   border-radius: 8px !important;

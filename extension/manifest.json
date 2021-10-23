@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "DEEDS++",
-  "version": "2.2.6",
+  "version": "2.2.7",
   "description": "Adds dark mode and rounded corners to DEEDS.",
   "icons": {
       "128": "/assets/logo.png",
