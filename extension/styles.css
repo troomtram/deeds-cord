@@ -17,12 +17,18 @@ Secondary: #30567A
 /* You can customize these variables to suit your liking */
 :root {
   --background: #121212; /* Normally the darkest colour on the page and used in the sidebars */
+
   --middleground: #1E1E1E; /* This colour is used as the background for the main homepages. */
-  --foreground: #333333; /* This colour is used to contain the news along with other UI elements. */
-  --text: white; /* The colour of text */
-  --primary: #ED4245; /* Used for dropdown menu's and timetables */
-  --secondary: #5865F2; /* Used for buttons */
   --body-background: #1E1E1E !important; /* Keep this the same as middleground for best results */
+
+  --foreground: #333333; /* This colour is used to contain the news along with other UI elements. */
+
+  --text: white; /* The colour of text */
+
+  --primary: #ED4245; /* Used for dropdown menu's and timetables */
+
+  --secondary: #5865F2; /* Used for buttons */
+  --fc-list-event-hover-bg-color: #5865F2 !important; /* Keep this the same as secondary for best results */
 }
 
 
@@ -46,8 +52,16 @@ div#component15473>div>div>section>div>div>div{
 /* Chnages what happens when you hover over a link */
 a:hover {
     background-color: var(--secondary) !important;
-    border-radius: 8px;
+    border-radius: 8px !important;
+    color: var(--text) !important;
     opacity: 0.5 !important;
+}
+/* Changes what happens when you hover over a event */
+tr.fc-list-event:hover {
+  background-color: var(--secondary) !important;
+  border-radius: 8px !important;
+  color: var(--text) !important;
+  opacity: 0.5 !important;
 }
 
 /* Adds rounded corners to pictures everywhere */
