@@ -21,7 +21,7 @@ x.**Y**.z = New backwards compatible features. (Resets z when changed.)
 
 x.y.**Z** = New backwards compatible bug fixes.
 ## How to install:
-Refer to the [wiki](https://github.com/cgsdiscord/deeds-cord/wiki) for detailed installation instructions.
+Refer to the [wiki](https://github.com/cgsdiscord/deeds-cord/wiki/Installation) for detailed installation instructions.
 
 ### Google Chrome: <a name="google_chrome"></a>
 1) Download your preferred release from the [releases page](https://github.com/cgsdiscord/deeds-cord/releases).
