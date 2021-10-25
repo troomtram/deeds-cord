@@ -61,4 +61,4 @@ Refer to the [wiki](https://github.com/cgsdiscord/deeds-cord/wiki) for more info
 6) When __Extension Loaded__ pops up near the bottom left, refresh the DEEDS website.
 
 
-**Discalaimer:** *I (and other contributors) are not responsible for any trouble you may get in for putting dark mode and rounded corners in deeds...*
+**Discalaimer:** *You are not allowed to reveal the identity of the developers. I (and other contributors) are not responsible for any trouble you may get in for putting dark mode and rounded corners in deeds...*
