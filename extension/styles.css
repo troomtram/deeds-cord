@@ -193,10 +193,6 @@ div.list-item{
   background-color: var(--middleground) !important;
 }
 
-/* Makes the more menu button a circle in the classes page */
-.icon-more{
-  border-radius: 100px !important;
-}
 
 /* Rounds the class image in the classes page in the top left and right corners */
 .card-class-image{
