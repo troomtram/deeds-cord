@@ -29,7 +29,7 @@ Refer to the [wiki](https://github.com/cgsdiscord/deeds-cord/wiki/Installation) 
 2) Unzip the file.
 3) Navigate to __chrome://extensions__. 
 4) Turn on __Developer Mode__ at the top right.
-5) Click the __Load Unpacked__ button near the top left and select the folder you downloaded.
+5) Click the __Load Unpacked__ button near the top left, select the folder you downloaded and navigate to _/deeds-cord/extension/chrome_ and click ok.
 6) When __Extension Loaded__ pops up near the bottom left, refresh the DEEDS website.
 
 
@@ -38,18 +38,19 @@ Refer to the [wiki](https://github.com/cgsdiscord/deeds-cord/wiki/Installation) 
 2) Unzip the file.
 3) Navigate to __edge://extensions__. 
 4) Turn on __Developer Mode__ near the bottom left.
-5) Click the __Load Unpacked__ button near the top right and select the folder you downloaded.
+5) Click the __Load Unpacked__ button near the top right, select the folder you downloaded and navigate to _/deeds-cord/extension/chrome_ and click ok.
 6) Scroll down until you find a heading that says __From other sources__.
 8) When __deeds_cord__ appears below the heading, refresh the DEEDS website.
 
 ### Opera <a name="opera"></a>
+Follow the [Google Chrome](#google_chrome) instructions.
 
 ### Vivaldi Browser <a name="vivaldi"></a>
 1) Download your preferred release from the [releases page](https://github.com/cgsdiscord/deeds-cord/releases).
 2) Unzip the file.
 3) Navigate to __chrome://extensions__. 
 4) Turn on __Developer Mode__ at the top right.
-5) Click the __Load Unpacked__ button near the top left and select the folder you downloaded.
+5) Click the __Load Unpacked__ button near the top left, select the folder you downloaded and navigate to _/deeds-cord/extension/chrome_ and click ok.
 6) When __Extension Loaded__ pops up near the bottom left, refresh the DEEDS website.
 
 
@@ -58,7 +59,7 @@ Refer to the [wiki](https://github.com/cgsdiscord/deeds-cord/wiki/Installation) 
 2) Unzip the file.
 3) Navigate to __brave://extensions__ 
 4) Turn on __Developer Mode__ near the top right.
-5) Click the __Load Unpacked__ button near the top left and select the folder you downloaded.
+5) Click the __Load Unpacked__ button near the top left, select the folder you downloadedand navigate to _/deeds-cord/extension/chrome_ and click ok..
 6) When __Extension Loaded__ pops up near the bottom left, refresh the DEEDS website.
 
 
