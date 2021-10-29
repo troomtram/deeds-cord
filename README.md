@@ -11,6 +11,7 @@ A chrome extension to improve the look and feel of DEEDS. [Download the latest s
  
 #### Support coming soon:
 - Safari
+- Firefox
 
 ## Versioning:
 This project uses [Semantic Versioning](https://semver.org)
