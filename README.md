@@ -10,7 +10,7 @@ A chrome extension to improve the look and feel of DEEDS. [Download the latest s
 - [Brave Browser](https://github.com/cgsdiscord/deeds-cord/wiki/Installation#brave) | [Download](https://brave.com/download/ "Download Brave Browser") (Mac/Win/Linux)
  
 #### Support coming soon:
-- Safari
+- Safari (Will require at least 25GB of free storage on your device) (Will require a MacOS Device if you want to install on iOS)
 - Firefox
 
 ## Versioning:
