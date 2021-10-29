@@ -44,6 +44,25 @@ Secondary: #30567A
   }
 }
 
+/* Change colours in search bar */
+
+.global-search .result-meta {
+  background: var(--background) !important;
+}
+
+.global-search .results {
+  border-color: var(--foreground) !important;
+  background-color: var(--background) !important;
+}
+
+.global-search [type=text]:focus, .global-search [type=text]:active, .global-search:hover [type=text], .global-search:hover [type=text]:focus{
+  border-color: var(--foreground) !important;
+}
+
+.global-search .result-meta.with-bg {
+  color: var(--text) !important;
+}
+
 /* Fix issue #15 class tile bug */
 div#component15473>div>div>section>div>div>div{
   background-color: var(--primary) !important;
