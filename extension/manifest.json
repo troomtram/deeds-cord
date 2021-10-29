@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "DEEDS++",
+  "name": "DEEDS++ [Chrome edition]",
   "version": "2.3.0",
   "description": "Adds dark mode and rounded corners to DEEDS.",
   "icons": {
