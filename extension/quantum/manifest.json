@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "DEEDS++ [Quantum edition]",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Adds dark mode and rounded corners to DEEDS.",
   "browser_action": {
     "default_popup": "popup.html",
