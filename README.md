@@ -1,4 +1,7 @@
 # DEEDS++
+![Discord shield](https://img.shields.io/discord/826023027548225547?label=Discord)
+
+
 ### About:
 A chrome extension to improve the look and feel of DEEDS. [Download the latest stable release here!](https://github.com/cgsdiscord/deeds-cord/releases/latest)
 
