@@ -220,6 +220,12 @@ ul.information-list.reply{
   border-color: var(--primary) !important;
   background-color: var(--middleground) !important;
 }
+
+/* fix issue #31 */
+.left-off-canvas-menu .left-submenu, .left-off-canvas-menu .left-submenu .back>a{
+  background-color: var(--background) !important;
+}
+
 /* ---------------------- HOME PAGE ---------------------- */
 /* Removes Good evening, blah blah blah so you can stream yourself programming... */
 div#component3418{
