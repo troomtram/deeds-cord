@@ -1,7 +1,7 @@
 # DEEDS++
 ![Discord shield](https://img.shields.io/discord/826023027548225547?label=Discord)
 ![Status: Beta](https://img.shields.io/badge/Status-beta-orange)
-
+![Github contributors](https://img.shields.io/github/contributors/cgsdiscord/deeds-cord?label=Contributors)
 
 ### About:
 A chrome extension to improve the look and feel of DEEDS. [Download the latest stable release here!](https://github.com/cgsdiscord/deeds-cord/releases/latest)
