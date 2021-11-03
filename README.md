@@ -2,7 +2,7 @@
 ![Discord shield](https://img.shields.io/discord/826023027548225547?label=Discord)
 ![Status: Beta](https://img.shields.io/badge/Status-beta-orange)
 ![Github contributors](https://img.shields.io/github/contributors/cgsdiscord/deeds-cord?label=Contributors)
-![Supported platforms](https://img.shields.io/badge/Platforms-chromium%20(google%20chrome,%20vivaldi,%20edge)%20%7C%20quantum%20(firefox)%20-lightgrey)
+![Supported platforms](https://img.shields.io/badge/Platforms-chromium%20(google%20chrome,%20vivaldi,%20edge)%20%7C%20quantum%20(firefox)%20-blue)
 
 ### About:
 A chrome extension to improve the look and feel of DEEDS. [Download the latest stable release here!](https://github.com/cgsdiscord/deeds-cord/releases/latest)
