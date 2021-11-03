@@ -1,5 +1,6 @@
 # DEEDS++
 ![Discord shield](https://img.shields.io/discord/826023027548225547?label=Discord)
+![Status: Beta](https://img.shields.io/badge/Status-beta-orange)
 
 
 ### About:
