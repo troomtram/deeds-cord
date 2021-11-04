@@ -145,6 +145,10 @@ p {
 td {
   color: var(--text) !important;
 }
+
+table {
+  background-color: var(--background) !important;
+}
 /* ---------------------- QUIZZES PAGES ---------------------- */
 /* Adds dark mode to the start quiz confirmation page */
 .row>div>div>table>tbody{
@@ -182,6 +186,33 @@ span.cke_button_icon{
 input{
   background-color: var(--foreground) !important;
   color: var(--text) !important;
+}
+
+/* Adds dark mode to the progress meter */
+.progress .meter{
+  background-color: var(--foreground) !important;
+}
+
+/* Changes the colour of the checkboxes */
+input[type=checkbox]:not(.plain):checked+label.checkbox-label:before, body.login input[type=checkbox]:not(.plain):checked+label:before, input[type=checkbox]:not(.plain):checked+label.checkbox-label:after, body.login input[type=checkbox]:not(.plain):checked+label:after {
+  color: var(--foreground) !important;
+  background-color: var(--links) !important;
+}
+
+/* Changes the colour of the ticks and crosses back to the original */
+.evaluation-incorrect-answer-icon {
+  color: #fa4a47 !important;
+}
+.evaluation-correct-answer-icon {
+  color: #4fa74f !important;
+}
+.evaluation-unselected-answer-icon{
+  color: #ff7d00 !important;
+}
+
+/* Changes colour of the matching type questions */
+.matching-pairs .sortable{
+  background-color: var(--background) !important;
 }
 
 /* ---------------------- INDIVIDUAL CLASSES PAGES ---------------------- */
