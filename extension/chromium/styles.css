@@ -335,6 +335,16 @@ li.actions-small-1{
   color: var(--text) !important;
 }
 
+/* Adds dark mode to the news selector (and possibly other selectors idrk) */
+.side-nav{
+  background-color: var(--foreground) !important;
+}
+
+/* Changes colour of pagination on the new page (and possibly elsewhere idrk) */
+ul.pagination li a, ul.pagination li button{
+  background-color: var(--foreground) !important;
+}
+
 /* ---------------------- ICONS ---------------------- */
 /* Changes the due work icon */
 
