@@ -145,6 +145,10 @@ p {
 td {
   color: var(--text) !important;
 }
+
+dl {
+  color: var(--text) !important;
+}
 /* ---------------------- QUIZZES PAGES ---------------------- */
 /* Adds dark mode to the start quiz confirmation page */
 .row>div>div>table>tbody{
