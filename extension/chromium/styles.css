@@ -243,6 +243,11 @@ div.fc-list-day-cushion.fc-cell-shaded{
   background-color: var(--foreground) !important;
 }
 
+/* fixes issue #28 */
+.swiper-container{
+  border-radius: 8px !important;
+}
+
 /* Removes DEEDS mobile app ad */
 #component20175 {
   display: none !important;
