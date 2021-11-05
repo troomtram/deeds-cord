@@ -355,6 +355,11 @@ ul.pagination li a, ul.pagination li button{
   background-color: var(--foreground) !important;
 }
 
+/* Adds dark mode to the news permissions */
+.reveal-modal {
+  background-color: var(--background) !important;
+}
+
 /* ---------------------- ICONS ---------------------- */
 /* Changes the due work icon */
 
