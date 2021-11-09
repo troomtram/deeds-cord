@@ -131,6 +131,31 @@ h2 {
 h3 {
   color: var(--text) !important;
 }
+h4 {
+  color: var(--text) !important;
+}
+h5 {
+  color: var(-text) !important;
+}
+h6 {
+  color: var(-text) !important;
+}
+
+strong {
+  color: var(--text) !important;
+}
+
+label {
+  color: var(--text) !important;
+}
+
+time {
+  color: var(--text) !important;
+}
+
+li {
+  color: var(--text) !important;
+}
 
 span{
   color: var(--text) !important;
@@ -143,6 +168,10 @@ p {
 }
 
 td {
+  color: var(--text) !important;
+}
+
+dl {
   color: var(--text) !important;
 }
 /* ---------------------- QUIZZES PAGES ---------------------- */
@@ -220,6 +249,12 @@ ul.information-list.reply{
   border-color: var(--primary) !important;
   background-color: var(--middleground) !important;
 }
+
+/* fix issue #31 */
+.left-off-canvas-menu .left-submenu, .left-off-canvas-menu .left-submenu .back>a{
+  background-color: var(--background) !important;
+}
+
 /* ---------------------- HOME PAGE ---------------------- */
 /* Removes Good evening, blah blah blah so you can stream yourself programming... */
 div#component3418{
@@ -243,8 +278,13 @@ div.fc-list-day-cushion.fc-cell-shaded{
   background-color: var(--foreground) !important;
 }
 
+/* fixes issue #28 */
+.swiper-container{
+  border-radius: 8px !important;
+}
+
 /* Removes DEEDS mobile app ad */
-#component20175 {
+#component20175, .swiper-pagination {
   display: none !important;
 }
 
@@ -303,6 +343,16 @@ dl.tabs{
 li.actions-small-1{
   background-color: var(--middleground) !important;
   color: var(--text) !important;
+}
+
+/* Adds dark mode to the news selector (and possibly other selectors idrk) */
+.side-nav{
+  background-color: var(--foreground) !important;
+}
+
+/* Changes colour of pagination on the new page (and possibly elsewhere idrk) */
+ul.pagination li a, ul.pagination li button{
+  background-color: var(--foreground) !important;
 }
 
 /* ---------------------- ICONS ---------------------- */

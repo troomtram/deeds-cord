@@ -4,16 +4,6 @@ When you are submitting a PR or committing a change please add comments to your 
 Thanks, Dumbledore#5175 :)
 */
 
-/*
-Default colours:
-Background: #121212
-Middleground: #1E1E1E
-Foreground
-Text: white
-Primary: #7C90B3
-Secondary: #30567A
-*/
-
 /* You can customize these variables to suit your liking */
 :root {
   --background: #121212; /* Normally the darkest colour on the page and used in the sidebars */
@@ -131,6 +121,31 @@ h2 {
 h3 {
   color: var(--text) !important;
 }
+h4 {
+  color: var(--text) !important;
+}
+h5 {
+  color: var(-text) !important;
+}
+h6 {
+  color: var(-text) !important;
+}
+
+strong {
+  color: var(--text) !important;
+}
+
+label {
+  color: var(--text) !important;
+}
+
+time {
+  color: var(--text) !important;
+}
+
+li {
+  color: var(--text) !important;
+}
 
 span{
   color: var(--text) !important;
@@ -149,6 +164,96 @@ td {
 table {
   background-color: var(--background) !important;
 }
+
+dl {
+  color: var(--text) !important;
+}
+
+/* Change colours in search box and results */
+
+.global-search .result-meta {
+  background: var(--background) !important;
+}
+
+.global-search .results {
+  border-color: var(--foreground) !important;
+  background-color: var(--background) !important;
+}
+
+.global-search [type=text]:focus, .global-search [type=text]:active, .global-search:hover [type=text], .global-search:hover [type=text]:focus{
+  border-color: var(--foreground) !important;
+}
+
+.global-search .result-meta.with-bg {
+  color: var(--text) !important;
+}
+
+/* fix issue #31 */
+.left-off-canvas-menu .left-submenu, .left-off-canvas-menu .left-submenu .back>a{
+  background-color: var(--background) !important;
+}
+
+/* Pagination colours */
+ul.pagination li a, ul.pagination li button{
+  background-color: var(--foreground) !important;
+}
+
+/* Changes navigation path colours */
+.breadcrumb li a {
+  background-color: var(--foreground) !important;
+}
+
+.breadcrumb li a:before {
+  border-left: .4rem solid var(--foreground) !important;
+}
+
+.breadcrumb li a:after {
+  border-left: .4rem solid var(--foreground) !important;
+  background-color: .4rem solid var(--middleground) !important;
+}
+
+select {
+  background-color: var(--background) !important;
+  color: var(--text) !important;
+}
+
+/* Confirmation Pop-up Colours */
+body > div.reveal-modal.small.open{
+  background-color: var(--background) !important;
+}
+#confirm-dialog-confirm-button{
+  background-color: var(--secondary) !important;
+  color: var(--text) !important;
+}
+#confirm-dialog-cancel-button{
+  background-color: var(--primary) !important;
+  color: var(--secondary) !important;
+}
+
+.empty-state{
+  background-color: var(--background) !important;
+  border-radius: 0px 0px 8px 8px !important;
+}
+
+/* Changes colour of selected dd item */
+.tabs dd.active a, .tabs li.tab-title.active a{
+  border-bottom: 2px solid var(--foreground) !important;
+}
+
+/* List colours (profile) */
+.flex-list.buttons a, .flex-list.buttons button{
+  background-color: var(--background) !important;
+  border-radius: 8px 8px 8px 8px !important;
+}
+
+/* Settings switches */
+.switch input:checked+label{
+  background: var(--foreground) !important;
+}
+.permission-list input:checked+label{
+  background-color: var(--foreground) !important;
+}
+
 /* ---------------------- QUIZZES PAGES ---------------------- */
 /* Adds dark mode to the start quiz confirmation page */
 .row>div>div>table>tbody{
@@ -251,6 +356,12 @@ ul.information-list.reply{
   border-color: var(--primary) !important;
   background-color: var(--middleground) !important;
 }
+
+/* fix issue #31 */
+.left-off-canvas-menu .left-submenu, .left-off-canvas-menu .left-submenu .back>a{
+  background-color: var(--background) !important;
+}
+
 /* ---------------------- HOME PAGE ---------------------- */
 /* Removes Good evening, blah blah blah so you can stream yourself programming... */
 div#component3418{
@@ -274,8 +385,13 @@ div.fc-list-day-cushion.fc-cell-shaded{
   background-color: var(--foreground) !important;
 }
 
+/* fixes issue #28 */
+.swiper-container{
+  border-radius: 8px !important;
+}
+
 /* Removes DEEDS mobile app ad */
-#component20175 {
+#component20175, .swiper-pagination {
   display: none !important;
 }
 
@@ -334,6 +450,21 @@ dl.tabs{
 li.actions-small-1{
   background-color: var(--middleground) !important;
   color: var(--text) !important;
+}
+
+/* Adds dark mode to the news selector (and possibly other selectors idrk) */
+.side-nav{
+  background-color: var(--foreground) !important;
+}
+
+/* Changes colour of pagination on the new page (and possibly elsewhere idrk) */
+ul.pagination li a, ul.pagination li button{
+  background-color: var(--foreground) !important;
+}
+
+/* Adds dark mode to the news permissions */
+.reveal-modal {
+  background-color: var(--background) !important;
 }
 
 /* ---------------------- ICONS ---------------------- */
