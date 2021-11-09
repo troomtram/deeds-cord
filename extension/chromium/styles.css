@@ -343,7 +343,7 @@ span.title.text-bottom.text-center{
 /* Rounds the bottom of the tiles on the classes pages (and the home page and other places I don't know about...)*/
 div.card-content.classes.actions-small-1{
   border-radius: 0px 0px 8px 8px !important;
-  background-color: var(--secondary) !important;
+  background-color: var(--primary) !important;
 }
 
 /* Fixes the white replies to OP bug */
