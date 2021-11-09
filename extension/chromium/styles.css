@@ -4,16 +4,6 @@ When you are submitting a PR or committing a change please add comments to your 
 Thanks, Dumbledore#5175 :)
 */
 
-/*
-Default colours:
-Background: #121212
-Middleground: #1E1E1E
-Foreground
-Text: white
-Primary: #7C90B3
-Secondary: #30567A
-*/
-
 /* You can customize these variables to suit your liking */
 :root {
   --background: #121212; /* Normally the darkest colour on the page and used in the sidebars */
