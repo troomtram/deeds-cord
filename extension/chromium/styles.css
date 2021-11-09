@@ -174,6 +174,20 @@ td {
 dl {
   color: var(--text) !important;
 }
+
+/* Changes navigation path colours */
+.breadcrumb li a {
+  background-color: var(--foreground) !important;
+}
+
+.breadcrumb li a:before {
+  border-left: .4rem solid var(--links) !important;
+}
+
+.breadcrumb li a:after {
+  border-left: .4rem solid var(--foreground) !important;
+  background-color: .4rem solid var(--middleground) !important;
+}
 /* ---------------------- QUIZZES PAGES ---------------------- */
 /* Adds dark mode to the start quiz confirmation page */
 .row>div>div>table>tbody{
